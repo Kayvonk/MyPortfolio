@@ -1,0 +1,85 @@
+ h1 {
+     margin-top: 1%;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    
+     }
+
+h2 {
+    margin-left: 20%;
+    font-family: 'DM Serif Display', serif;
+     }
+    
+h3 {
+    text-align: center;
+}
+
+.contacts {
+    text-align: left;
+    font-family: 'DM Serif Display', serif;
+    font-size: large;
+}
+
+.about-me-image {
+    float: right;
+    width: 100%;
+    margin-top: 10%;
+     }
+
+.left-text {
+    margin-top: 5%;
+    font-size: 17pt;
+    }
+
+.bottom-text {
+    margin-top: 2%;
+    font-size: 18pt;
+    }
+
+.icons {
+    margin: 0px 10px 10px 10px;
+    }
+
+.footer {
+    margin-left: 44%;
+    }
+
+.placeholder-text {
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 150%;
+    }
+
+.images{
+    border: 1px solid black;
+    border-width: ;
+    }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+   
+        
+.background-image {
+    width: 27%;
+    float: right;
+    margin-right: 20%;
+    margin-top: 4%;
+    }
+
+.contact {
+    margin-left: 21%;
+    margin-top: 2%;
+    font-family: 'DM Serif Display', serif;
+    }
+
+
+.form-control {
+    margin-bottom: 20px;
+    }
+
+.row4 {
+    margin-left: 1%;
+    }
