@@ -1,85 +1,88 @@
- h1 {
+h1, h4{
      margin-top: 1%;
     text-align: center;
     font-family: 'DM Serif Display', serif;
-    
-     }
+}
 
 h2 {
-    margin-left: 20%;
+    margin-left: 14%;
     font-family: 'DM Serif Display', serif;
-     }
+}
     
 h3 {
     text-align: center;
 }
 
-.contacts {
-    text-align: left;
-    font-family: 'DM Serif Display', serif;
-    font-size: large;
+.about-me-image {
+    width: 100%;
 }
 
-.about-me-image {
-    float: right;
-    width: 100%;
-    margin-top: 10%;
-     }
+@media screen and (min-width: 576px) {
+    .about-me-image {
+        width: 30rem;
+    }
+}
 
 .left-text {
     margin-top: 5%;
     font-size: 17pt;
-    }
+}
 
 .bottom-text {
-    margin-top: 2%;
+    margin: 2% 0% 10% 0%;
+    padding: 0%;
     font-size: 18pt;
-    }
+    /* text-align: justify; */
+}
 
 .icons {
     margin: 0px 10px 10px 10px;
-    }
+}
 
 .footer {
     margin-left: 44%;
     }
 
-.placeholder-text {
+.project-text {
     text-align: center;
     margin-bottom: 10%;
     font-size: 150%;
-    }
+}
 
 .images{
     border: 1px solid black;
-    border-width: ;
-    }
+}
 
-.center {
+.center, h4, .resumeBtn {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    }
-   
-        
-.background-image {
-    width: 27%;
-    float: right;
-    margin-right: 20%;
-    margin-top: 4%;
-    }
+}
 
-.contact {
-    margin-left: 21%;
-    margin-top: 2%;
-    font-family: 'DM Serif Display', serif;
-    }
-
+.resumeBtn {
+        margin-top: 5%;
+       width: 20%;
+       height: auto;
+}
 
 .form-control {
     margin-bottom: 20px;
-    }
+}
 
-.row4 {
-    margin-left: 1%;
-    }
+.lastRow {
+    margin: 0% 0% 10% 0%;
+}
+
+.contacts {
+    font-size: 140%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav a:hover { color: rgb(0, 185, 247) !important; 
+}
+
+body {
+    background: rgb(140,164,174);
+    background: linear-gradient(90deg, rgba(140,164,174,1) 0%, rgba(188,203,194,1) 9%, rgba(255,255,255,1) 17%, rgba(255,255,255,1) 83%, rgba(188,203,194,1) 91%, rgba(140,164,174,1) 100%);
+}
+
