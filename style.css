@@ -29,7 +29,7 @@ h3 {
 }
 
 .bottom-text {
-    margin: 2% 0% 10% 0%;
+    margin: 2% 0% 20% 0%;
     padding: 0%;
     font-size: 18pt;
     /* text-align: justify; */
@@ -41,7 +41,37 @@ h3 {
 
 .footer {
     margin-left: 44%;
+}
+
+@media (max-width: 576px) {
+.footer {
+    margin-left: 27%;
     }
+}
+
+@media (min-width: 576px) {
+.footer {
+    margin-left: 35%;
+    }
+}
+
+@media (min-width: 768px) {
+.footer {
+    margin-left: 38%;
+    }
+}
+
+@media (min-width: 992px) {
+.footer {
+    margin-left: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+.footer {
+    margin-left: 43%;
+    }
+}
 
 .project-text {
     text-align: center;
@@ -69,6 +99,13 @@ h3 {
   .resumeBtn {
     font-size:14px;
     padding:4px 6px;
+  }
+}
+
+@media (min-width: 576px) {
+.resumeBtn {
+    font-size:14px;
+    padding:6px 9px;
   }
 }
 
