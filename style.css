@@ -26,13 +26,14 @@ h3 {
 .left-text {
     margin-top: 5%;
     font-size: 17pt;
+    text-align: justify;
 }
 
 .bottom-text {
     margin: 2% 0% 20% 0%;
     padding: 0%;
     font-size: 18pt;
-    /* text-align: justify; */
+    text-align: justify;
 }
 
 .icons {
@@ -40,12 +41,12 @@ h3 {
 }
 
 .footer {
-    margin-left: 44%;
+    margin-left: 43%;
 }
 
 @media (max-width: 576px) {
 .footer {
-    margin-left: 27%;
+    margin-left: 31.5%;
     }
 }
 
