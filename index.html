@@ -5,13 +5,14 @@
     <title>Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
 
-    <nav class="nav nav-tabs nav-stacked navbar-dark bg-dark justify-content-center">
+    <nav class="nav nav-tabs nav-stacked navbar-dark bg-dark justify-content-center navbar-fixed-top">
         <a class="nav-link navbar-brand active" href="index.html">Home</a>
         <a class="nav-link navbar-brand" href="portfolio.html">Portfolio</a>
         <a class="nav-link navbar-brand" href="contact.html">Contact</a>
@@ -19,33 +20,57 @@
 </head>
 
 <body>
-    <h1>Kayvon Kazemini</h1>
-    <h2>About Me</h2>
-    <div class=" container">
-        <div class="row">
-            <div class="col-sm left-text">
-                <img class="about-me-image img-fluid float-sm-right mb-sm-3 ml-sm-3"
-                    src="assets/417296_10151061927160981_1015273837_n.jpg" alt="about-me-image">
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Originally from North Carolina, my undergraduate studies began at
-                    the University of North Carolina at Asheville where I studied music performance. After receiving a
-                    BFA in 2015, I started studying the sciences with the intention of finding a profession that would
-                    open up new opportunities. I moved to Oregon where I studied at Portland Community College and
-                    Portland State University until 2019. Currently, I reside in Utah, where I study computer
-                    programming with the aims of using those skills to develop educational tools to help make learning
-                    fun and emmersive.</p>
+    <section class="intro">
+        <h1>Kayvon Kazemini</h1>
+        <div class="container-fluid">
+            <div class="row imgAnimate">
+                <div class="col-md-12">
+                    <img class="profileSquare img-fluid" src="assets/profileSquare.png" alt="profileSquare">
+                </div>
+            </div>
+            <div class="row row2">
+                <p class="slidingText"> Full-stack Web Developer</p>
+                <div class="text rotatingText">
+                    <p>with a passion for </p>
+                    <p>
+                        <span class="word midnight"></span>
+                        <span class="word belize">innovation.</span>
+                        <span class="word pomegranate">responsiveness.</span>
+                        <span class="word green">interactivity.</span>
+                        <span class="word wisteria">aesthetic.</span>
+                    </p>
+                </div>
+                <div id="top">
+                    <img class="down-arrow img-fluid" src="assets/Daco_4726738smallest.png" alt="down-arrow">
+
+                </div>
             </div>
         </div>
-        <div class="row2">
-            <div class="col-sm-12 bottom-text">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attending the Coding Bootcamp at the University of Utah has been a
-                valuable experience, facilitating proficiencies in coding languages such as JavaScript, jQuery, CSS3,
-                and HTML5. Additionally, working with softwares such as Unity, Blender, and GIMP has independently
-                provided a basis for image editing and graphic designing. All of these skills culminate to form a base
-                of knowledge from which I tackle any project. Combined with determination and creativity, every
-                project becomes an opportunity to put forth my best work.
+    </section>
+
+    <section class="aboutMe">
+        <div id="bottom">
+            <img class="up-arrow img-fluid" src="assets/Daco_4726738smallest_up.png" alt="up-arrow">
+        </div>
+        <h2>About Me</h2>
+        <div class=" container">
+            <div class="row">
+                <div class="col-sm left-text">
+                    <img class="about-me-image img-fluid float-sm-right mb-sm-3 ml-sm-3"
+                        src="assets/417296_10151061927160981_1015273837_n.jpg" alt="about-me-image">
+
+                    </p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With a background in studying arts and sciences, and a strong
+                    foundation in web development from the Coding Bootcamp at the University of Utah, my aim has
+                    been developing fun and immersive applications. This is aided by proficiencies in coding languages
+                    such as JavaScript, jQuery, Node.js, CSS3, and HTML5. Additionally, working with softwares such as
+                    Unity, Blender, and GIMP has provided a basis for image editing and graphic designing.
+                    All of these skills culminate to form a base of knowledge from which I tackle any project. Combined
+                    with determination and creativity, every project becomes an opportunity to put forth my best work.
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -55,11 +80,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="home.js"></script>
+
 </body>
 
 <!-- Footer -->
-<footer class="footer fixed-bottom">
+<!-- <footer class="footer fixed-bottom">
     <div class="row">
         <div class="col-xs-2 icons">
             <a href="https://github.com/Kayvonk" target="_blank">
@@ -74,6 +103,6 @@
                 <img src="assets/iconfinder_1_Twitter_colored_svg_5296514.png" /></a>
         </div>
     </div>
-</footer>
+</footer> -->
 
 </html>
