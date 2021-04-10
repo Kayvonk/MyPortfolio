@@ -272,7 +272,6 @@ p {
 
 .profileSquare {
   width: 70%;
-  margin-top: 0%;
   margin-left: 20%;
   border-radius: 50px;
   }
@@ -282,7 +281,6 @@ p {
 
 .profileSquare {
   width: 80%;
-  margin-top: 0%;
   margin-left: 20%;
   border-radius: 50px;
   }
@@ -293,7 +291,6 @@ p {
 
 .profileSquare {
   width: 80%;
-  margin-top: 0%;
   margin-left: 20%;
   border-radius: 50px;
   }
@@ -305,7 +302,6 @@ p {
 
 .profileSquare {
   width: 85%;
-  margin-top: 0%;
   margin-left: 20%;
   border-radius: 50px;
   }
@@ -313,16 +309,58 @@ p {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
-.slidingText {
-  position: absolute;
-  width: 40rem;
-  left: 15%;
-  margin-left: 25px;
-  height: 40px;
-  top: 30%;
+.profileSquare {
+  width: 85%;
+  margin-left: 20%;
+  border-radius: 50px;
   }
 }
+
+  
+/* ------------------Row 2------------------------ */
+/* 
+@media (max-width: 576px) { 
+
+.row2 {
+  position: absolute;
+  top: 20%;
+  }
+}
+
+@media (min-width: 576px) { 
+
+.row2 {
+   position: absolute;
+   top: 20%;
+  }
+}
+
+
+@media (min-width: 768px) { 
+
+.row2 {
+   position: absolute;
+   top: 30%;
+  }
+}
+
+@media (min-width: 992px) { 
+
+.row2 {
+   position: absolute;
+   top: 40%;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { 
+
+.row2 {
+   position: absolute;
+   top: 50%;
+  }
+}
+ */ 
 
 /* ------------------Line 1 Text------------------------ */
 
@@ -334,7 +372,7 @@ p {
   left: 15%;
   margin-left: 25px;
   height: 40px;
-  top: 30%;
+  top: 50%;
   }
 }
 
@@ -346,7 +384,7 @@ p {
   left: 15%;
   margin-left: 25px;
   height: 40px;
-  top: 30%;
+  top: 50%;
   }
 }
 
@@ -359,7 +397,7 @@ p {
   left: 15%;
   margin-left: 25px;
   height: 40px;
-  top: 35%;
+  top: 50%;
   }
 }
 
@@ -372,7 +410,7 @@ p {
   left: 15%;
   margin-left: 25px;
   height: 40px;
-  top: 37%;
+  top: 55%;
   }
 }
 
@@ -385,7 +423,7 @@ p {
   left: 15%;
   margin-left: 25px;
   height: 40px;
-  top: 40%;
+  top: 60%;
   }
 }
 
@@ -394,26 +432,24 @@ p {
 @media (max-width: 576px) { 
 
 .text {
-  position: absolute;
+  position: relative;
   width: 40rem;
   left: 20%;
   margin-left: 25px;
   height: 40px;
-  top: 33%;
-  margin-top: -10px;
+  top: 60%;
   }
 }
 
 @media (min-width: 576px) { 
 
 .text {
-  position: absolute;
+  position: relative;
   width: 40rem;
   left: 20%;
   margin-left: 25px;
   height: 40px;
-  top: 35%;
-  margin-top: -10px;
+  top: 60%;
   }
 }
 
@@ -421,13 +457,12 @@ p {
 @media (min-width: 768px) { 
 
 .text {
-  position: absolute;
+  position: relative;
   width: 40rem;
   left: 20%;
   margin-left: 25px;
   height: 40px;
-  top: 41%;
-  margin-top: -10px;
+  top: 60%;
   }
 }
 
@@ -435,13 +470,12 @@ p {
 @media (min-width: 992px) { 
 
 .text {
-  position: absolute;
+  position: relative;
   width: 40rem;
   left: 20%;
   margin-left: 25px;
   height: 40px;
-  top: 45%;
-  margin-top: -10px;
+  top: 65%;
   }
 }
 
@@ -449,13 +483,12 @@ p {
 @media (min-width: 1200px) { 
 
 .text {
-  position: absolute;
+  position: relative;
   width: 40rem;
   left: 20%;
   margin-left: 25px;
   height: 40px;
-  top: 50%;
-  margin-top: -10px;
+  top: 70%;
   }
 }
 
@@ -463,8 +496,6 @@ p {
 
 .imgAnimate {
   position: absolute;
-  height: 100%;
-  margin: 0;
   line-height: 50px;
   text-align: left;
   animation: slide-right 2s ease-out;
@@ -487,7 +518,6 @@ p {
   font-weight: 600;
   font-size: 20px;
   position: absolute;
-  margin-top: 15%;
  line-height: 50px;
  text-align: left;
  animation: slide-left 2s ease-out;
@@ -500,7 +530,6 @@ p {
   font-weight: 600;
   font-size: 25px;
   position: absolute;
-  margin-top: 15%;
   line-height: 50px;
   text-align: left;
   animation: slide-left 2s ease-out;
@@ -514,7 +543,6 @@ p {
   font-weight: 600;
   font-size: 30px;
   position: absolute;
-  margin-top: 5%;
   line-height: 50px;
   text-align: left;
   animation: slide-left 2s ease-out;
@@ -528,7 +556,6 @@ p {
   font-weight: 600;
   font-size: 35px;
   position: absolute;
-  margin-top: 5%;
   line-height: 50px;
   text-align: left;
   animation: slide-left 2s ease-out;
@@ -542,7 +569,6 @@ p {
   font-weight: 600;
   font-size: 40px;
   position: absolute;
-  margin-top: 5%;
   line-height: 50px;
   text-align: left;
   animation: slide-left 2s ease-out;
@@ -564,7 +590,7 @@ p {
 .down-arrow {
   position: fixed;
   left: 50%;
-  bottom: 60px;
+  bottom: 10px;
   transform: translate(-50%, -50%);
   margin: 0 auto;
   width: 1px;
@@ -584,7 +610,7 @@ p {
 .down-arrow {
   position: fixed;
   left: 50%;
-  bottom: 20px;
+  bottom: 10px;
   transform: translate(-50%, -50%);
   margin: 0 auto;
   width: 1px;
@@ -604,7 +630,7 @@ p {
 .down-arrow {
   position: fixed;
   left: 50%;
-  bottom: 100px;
+  bottom: 10px;
   transform: translate(-50%, -50%);
   margin: 0 auto;
   width: auto;
@@ -624,7 +650,7 @@ p {
 .down-arrow {
   position: fixed;
   left: 50%;
-  bottom: 80px;
+  bottom: 15px;
   transform: translate(-50%, -50%);
   margin: 0 auto;
   width: 10%;
