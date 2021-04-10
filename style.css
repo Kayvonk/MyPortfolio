@@ -422,10 +422,10 @@ p {
 .slidingText {
   position: absolute;
   width: 15rem;
-  left: 5%;
+  left: 10%;
   margin-left: 20px;
   height: 40px;
-  top: 45%;
+  top: 50%;
   }
 }
 
@@ -533,10 +533,10 @@ p {
 .text {
   position: relative;
   width: 8rem;
-  left: 10%;
+  left: 15%;
   margin-left: 20px;
   height: 40px;
-  top: 55%;
+  top: 60%;
   }
 }
 
