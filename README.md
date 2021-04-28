@@ -12,7 +12,6 @@ This webpage serves as a home for information pertaining to past projects as wel
 ## Usage
 
 ![HomePage1Thumbnail](./assets/homePage1Thumbnail.PNG)
-![HomePage2Thumbnail](./assets/homePage2Thumbnail.PNG)
 ![PortfolioThumbnail](./assets/portfolioPageThumbnail.PNG)
 ![ContactThumbnail](./assets/contactPageThumbnail.PNG)
 
